@@ -9,7 +9,7 @@ public class DoWhileLeaveEntitlement17 {
         String confirmation;
 
         do {
-            System.out.print("Do you want to take a leave (y/n)? ");
+            System.out.print("Do you want to take a leave (y/t)? ");
             confirmation = input.next();
 
             if (confirmation.equalsIgnoreCase("y")) {
@@ -25,7 +25,7 @@ public class DoWhileLeaveEntitlement17 {
                         System.out.println("You don’t have enough leave entitlement. Please enter a valid number (max " + leaveEntitlement + ").");
                     }
                 }
-            } else {
+            } else if (confirmation.equalsIgnoreCase("t")) {
                 break;
             }
         } while (leaveEntitlement > 0);
@@ -34,5 +34,4 @@ public class DoWhileLeaveEntitlement17 {
         input.close();
     }
 }
-
-// jobsheet
+// modifiedjobsheet7
