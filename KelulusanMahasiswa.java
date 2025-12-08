@@ -125,3 +125,4 @@ public class KelulusanMahasiswa {
         System.out.println("Status Semester: " + statusSemester);
     }
 }
+// Muhammad Iqbal Ramadhan-254107020248
