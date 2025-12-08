@@ -13,7 +13,7 @@ public class nestedUjianSkripsi17 {
         int supervisor1 = sc.nextInt();
         System.out.print("Enter the number of guidance logs with Supervisor 2: ");
         int supervisor2 = sc.nextInt();
-y
+
         boolean free = compensationStatus.equalsIgnoreCase("Y") || compensationStatus.equalsIgnoreCase("Yes");
 
         if (free) {
